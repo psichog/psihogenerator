@@ -19,28 +19,29 @@ h1 {
     display: flex;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.507);
+    box-shadow: 0 0 10px 5px white;
     width: 100%;
     height: 450px;
     margin-top: -30px;
+    padding-top: 30px;
 }
 
 .video1 {
     margin-left: -35px;
-    margin-top: 30px;
 }
 
 .video2 {
     margin-left: 400px;
-    margin-top: 30px;
 }
 
-.button {
+.button1 {
     position: relative;
     top: 390px;
     right: 490px;
 }
 
-.button .youtube {
+.button1 .youtube,
+.button2 .instargam  {
     display: inline;
     border: 2px solid rgb(124, 0, 0);
     background-color: rgb(124, 0, 0);
@@ -53,10 +54,12 @@ h1 {
     padding: 5px 15px;
 }
 
-.button .youtube:hover {
+.button1 .youtube:hover,
+.button2 .instargam:hover {
     border: 2px solid rgb(255, 0, 0);
     background-color: rgb(255, 0, 0);
     color: white;
+    box-shadow: 0 0 10px 3px white;
 }
 
 .foto {
@@ -64,7 +67,22 @@ h1 {
     justify-content: space-around;
     flex-wrap: wrap;
     background-color:  rgba(0, 0, 0, 0.507);
+    box-shadow: 0 0 10px 5px white;
     padding-top: 30px;
     margin-top: -30px;
     height: 750px;
+}
+
+.foto4 {
+    padding-left: 435px;
+}
+
+.foto img {
+    box-shadow: 0 0 10px 5px white;
+}
+
+.button2 {
+    position: relative;
+    top: 330px;
+    right: 500px;
 }
