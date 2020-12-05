@@ -1,0 +1,171 @@
+@media screen and (max-width: 770px){
+
+    header nav {
+        display: none;
+    } 
+
+    header .logo_2 {
+       left: 5px
+    }
+
+    header .logo {
+        padding-top: 100px;
+        width: 900px;
+    }
+
+    
+    /* .burger-menu:hover,
+    span {
+        filter: brightness(0.7);
+    }
+    span,
+    span::after,
+    span::before {
+        position: absolute;
+        width: 30px;
+        height: 3px;
+        background-color: white;
+    }
+
+    span {
+        top: 50%;
+        right: 20%;
+        transform: rotate(-50%, -50%);
+    }
+
+    span::after {
+        content: '';
+        top: 9px;
+    }
+
+    span::before {
+        content: '';
+        top: -9px;
+    }
+    
+    .burger-menu-active span {
+        background-color: transparent;
+        transition: 0.7;
+    }
+
+    .burger-menu-active span::before {
+        top: 5%;
+        transform: rotate(45deg);
+        transform: translateyY(6px);
+    }
+
+    .burger-menu-active span::after {
+        top: -5%;
+        transform: rotate(-45deg);
+        transform: translateyY(-6px);
+    }
+
+    .main-menu  {
+        padding: 10px;
+        position: fixed;
+        top: -10px;
+        z-index: 20;
+        display: flex;
+        flex-direction: column;
+        height: 39%;
+        width: 28%;
+        background-image: url(../index/images/1585155315_3-p-odnotonnie-krutie-foni-14.jpg);
+        /* background-color: #2a2a2a; */
+        /* overflow-y: auto;
+    }
+
+    .burger-menu-active .main-menu{
+        right: 30px;
+    }
+
+    .link {
+        line-height: 3;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 20px;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        font-weight: bold;
+        color: white;
+    }
+
+    .link:hover {
+        color: red;
+    } */ 
+
+
+    .menu-burger__header {
+        position: fixed;
+        bottom: 1090px;
+        left: 778px;
+        width: 91px;
+        height: 80px;
+        display: block;
+        margin-left: 10px;
+        overflow: auto;
+        z-index: 30;
+    }
+
+    .menu-burger__header span, .menu-burger__header:after, .menu-burger__header:before{
+        
+        height: 7px;
+        width: 100%;
+        position: absolute;
+        background: rgb(255, 255, 255);
+        margin: 0 auto;
+    }
+    .menu-burger__header span{
+        top: 36px;
+    }
+    .menu-burger__header:after, .menu-burger__header:before{
+        content: '';
+    }
+    .menu-burger__header:after{
+        bottom: 5px;
+    }
+    .menu-burger__header:before{
+        top: 5px;
+    }
+
+    header .main-menu {
+        display: block;
+        left: 0;
+        background: rgba(0, 0, 0, 0.788);
+        box-shadow: #ccc;
+        width: 100%;
+        height: 100%;
+        box-shadow: 0 4px 2px -2px rgba(36, 36, 36, 0.37);
+        left: -100%;
+        transition: all 0.4s ease;
+    }
+
+    header .main-menu.open-menu {
+        left: 0;
+    }
+
+    .menu-burger__header.open-menu span {
+        opacity:0; 
+        transition: 0.5s; 
+    }
+    .menu-burger__header.open-menu:before {
+        transform: rotate(38deg);
+        top: 36px;
+        transition: 0.4s;
+    }
+    .menu-burger__header.open-menu:after {
+        transform: rotate(-38deg);
+        bottom: 36px;
+        transition: 0.4s;
+    }
+    .main-menu li {
+        display: flex;
+        justify-content: left;
+        margin: 40px 24px 40px 33px;
+        font-size: 22px;
+    }
+    .main-menu a {
+        color: white;
+        font-size: 50px;
+    }
+}
+
